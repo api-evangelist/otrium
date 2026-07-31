@@ -1,9 +1,28 @@
 aid: otrium
 name: Otrium
-description: 'Otrium is a company surfaced as a portfolio company of bond-capital, index-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: ecommerce. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Otrium is an online designer fashion outlet, headquartered in Amsterdam,
+  that connects shoppers across Europe with end-of-season and overstock apparel, footwear,
+  and accessories from designer and premium brands at reduced prices. A Certified B
+  Corporation, Otrium operates a curated marketplace model with dedicated brand storefronts,
+  native iOS and Android apps, and multi-market localization across the Netherlands,
+  Germany, Belgium, France, Italy, the United Kingdom, Spain, Poland, and the rest of
+  Europe. It was surfaced in the API Evangelist network as a portfolio company of Bond
+  Capital and Index Ventures. No public developer API, SDK, or documentation surface
+  is currently published; this profile captures the company identity and its verified
+  public web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/otrium/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.otrium.nl/wp-content/themes/otrium/images/otrium_nl_2.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ecommerce
+- Fashion
+- Retail
+- Apparel
+- Marketplace
+- Netherlands
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://otrium.com
+- type: Blog
+  url: https://otrium.com/blog
+- type: Support
+  url: https://help.otrium.nl/en
+- type: PrivacyPolicy
+  url: https://otrium.com/privacy-statement
+- type: TermsOfService
+  url: https://otrium.com/terms-and-conditions
+- type: DomainSecurity
+  url: security/otrium-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
