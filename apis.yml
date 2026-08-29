@@ -11,6 +11,17 @@ description: 'Otrium is an online designer fashion outlet, headquartered in Amst
   is currently published; this profile captures the company identity and its verified
   public web properties.'
 url: https://raw.githubusercontent.com/api-evangelist/otrium/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
